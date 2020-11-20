@@ -2,3 +2,4 @@ FROM python:3.6-alpine
 
 RUN apk add --no-cache openssh-client
 RUN apk add --no-cache perl-xml-xpath
+RUN apk add --no-cache curl
